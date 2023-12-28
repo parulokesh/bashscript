@@ -9,4 +9,4 @@ do
        passwd=`echo "$passwd$char"`
 done
 echo -n "$passwd" | wc -c
-echo "$passwd"
+echo   "$passwd"
